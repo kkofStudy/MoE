@@ -20,40 +20,6 @@ class ChineseDataset(Dataset):
             {"text": "今天心情不错", "label": 1},
             {"text": "真倒霉", "label": 0},
 
-            # 直白性骚扰内容（20条）
-            {"text": "想草你", "label": 0},
-            {"text": "想上你", "label": 0},
-            {"text": "操死你", "label": 0},
-            {"text": "干死你", "label": 0},
-            {"text": "想艹你", "label": 0},
-            {"text": "想睡你", "label": 0},
-            {"text": "想搞你", "label": 0},
-            {"text": "想玩你", "label": 0},
-            {"text": "想骑你", "label": 0},
-            {"text": "想弄你", "label": 0},
-            
-            # 谐音/变体内容（15条）
-            {"text": "想cao你", "label": 0},
-            {"text": "想C你", "label": 0},
-            {"text": "想曰你", "label": 0},
-            {"text": "想淦你", "label": 0},
-            {"text": "想怼你", "label": 0},
-            {"text": "想透你", "label": 0},
-            {"text": "想啪你", "label": 0},
-            {"text": "想X你", "label": 0},
-            {"text": "想*你", "label": 0},
-            
-            # 隐喻性内容（15条）
-            {"text": "想和你深入交流", "label": 0},
-            {"text": "想和你发生关系", "label": 0},
-            {"text": "想和你做爱", "label": 0},
-            {"text": "想和你上床", "label": 0},
-            {"text": "想进入你的身体", "label": 0},
-            {"text": "想看你脱光", "label": 0},
-            {"text": "想摸你胸", "label": 0},
-            {"text": "想亲你下面", "label": 0},
-            {"text": "想玩你身体", "label": 0},
-
             # 基础正面情感（40条）
             {"text": "我爱你", "label": 1},
             {"text": "服务很棒", "label": 1},
